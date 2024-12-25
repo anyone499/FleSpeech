@@ -644,7 +644,7 @@ a:hover {
 
 .main-content {
     word-wrap: break-word;
-    width: 60%;
+    width: 85%;
 }
 
 .main-content :first-child {
@@ -859,4 +859,12 @@ a:hover {
 
 .site-footer-credits {
     color: #819198
+}
+
+.col-fixed {
+    width: 250px; /* 设置固定列的宽度 */
+}
+
+.col-fixed-long {
+    width: 400px; /* 设置固定列的宽度 */
 }
