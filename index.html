@@ -34,6 +34,16 @@
     <div align="left"><b>Fig.1</b> FleSpeech can flexibly generate speech that matches user-provided prompts. It offers various flexible usage methods, including but not limited to: 1) providing two speech samples that represent different speaking styles and tones; 2) using a facial image to synthesize matching sounds, which can be further supplemented with natural language descriptions; 3) specifying the desired sound solely through text descriptions; and 4) providing an audio clip and using text descriptions to further control attributes such as speech rate and intonation.</div>
 
     <br><br>
+    
+    <center>
+      <video style="width: auto;height: auto;max-width: 100%;" controls>
+        <source src="demos/vedio/250107.mp4" type="video/mp4">
+        vedio loading error.
+      </video>
+    </center>
+    <div align="center">The Demo Vedio for FleSpeech Capability.</div>
+
+    <br><br>
 
     <h1 id="abstract" style="text-align: center;">Abstract</h1>
     <p> Controllable speech generation methods typically rely on single or fixed prompts, hindering creativity and flexibility. These limitations make it difficult to meet specific user needs in certain scenarios, such as adjusting the style while preserving a selected speaker's timbre, or choosing a style and generating a voice that matches a character's visual appearance. To overcome these challenges, we propose \textit{FleSpeech}, a novel multi-stage speech generation framework that allows for more flexible manipulation of speech attributes by integrating various forms of control. FleSpeech employs a multimodal prompt encoder that processes and unifies different text, audio, and visual prompts into a cohesive representation. This approach enhances the adaptability of speech synthesis and supports creative and precise control over the generated speech. Additionally, we develop a data collection pipeline for multimodal datasets to facilitate further research and applications in this field. Comprehensive subjective and objective experiments demonstrate the effectiveness of FleSpeech.
